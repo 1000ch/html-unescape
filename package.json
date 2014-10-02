@@ -1,0 +1,39 @@
+{
+  "name": "@1000ch/html-unescape",
+  "version": "0.0.0",
+  "description": "Unescape HTML special charactors.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/1000ch/html-unescape.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "html",
+    "escape",
+    "unescape",
+    "htmlspecialchars",
+    "security"
+  ],
+  "author": {
+    "name": "1000ch",
+    "email": "shogo.sensui@gmail.com",
+    "url": "http://github.com/1000ch"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/html-unescape/issues"
+  },
+  "homepage": "https://github.com/1000ch/html-unescape#readme",
+  "dependencies": {
+    "is-string": "^1.0.4"
+  },
+  "devDependencies": {
+    "is-function": "^1.0.1",
+    "tape": "^4.4.0"
+  }
+}
